@@ -56,7 +56,7 @@ jobs:
         run: |
           source venv/bin/activate
           mkdir -p test-results
-          pytest -q --junitxml=test-results/junit.xml
+          pytest -q --cov-fail-under=90 --junitxml=test-results/junit.xml
 
   security:
     needs: test

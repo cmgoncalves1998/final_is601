@@ -5,6 +5,11 @@ This is my final IS601 project. The main purpose of this project is to show how 
 FastAPI and SQLAlchemy calculator application with user registration/login,
 persisted calculation history, Docker deployment, and CI/CD. 
 
+## Repository Links
+
+- GitHub Repository: https://github.com/cmgoncalves1998/final_is601
+- Docker Hub Repository: https://hub.docker.com/r/christianmgoncalves1/final_is601
+
 ## New Feature: Usage Summary Report
 
 My feature I decided to implement is a detailed usage summary report for authenticated users. This project adds an report/history features that:
@@ -63,7 +68,7 @@ pytest tests/e2e/
 
 The GitHub Actions workflow builds and pushes the application image to:
 
-https://hub.docker.com/r/christianmgoncalves1/final_is601
+[christianmgoncalves1/final_is601](https://hub.docker.com/r/christianmgoncalves1/final_is601)
 
 Tags pushed by CI:
 

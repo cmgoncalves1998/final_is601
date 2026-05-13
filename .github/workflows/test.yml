@@ -88,7 +88,7 @@ jobs:
       
       - uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
+          username: christianmgoncalves1
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           
       - uses: docker/build-push-action@v5
